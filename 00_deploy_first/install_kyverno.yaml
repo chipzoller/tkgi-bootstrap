@@ -292,7 +292,6 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.2.5
-  creationTimestamp: null
   name: clusterpolicyreports.policy.k8s.io
 spec:
   additionalPrinterColumns:
@@ -627,7 +626,6 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.2.5
-  creationTimestamp: null
   name: clusterreportchangerequests.kyverno.io
 spec:
   additionalPrinterColumns:
@@ -1294,7 +1292,6 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.2.5
-  creationTimestamp: null
   name: policyreports.policy.k8s.io
 spec:
   additionalPrinterColumns:
@@ -1628,7 +1625,6 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.2.5
-  creationTimestamp: null
   name: reportchangerequests.kyverno.io
 spec:
   additionalPrinterColumns:
