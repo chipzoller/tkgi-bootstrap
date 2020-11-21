@@ -16,7 +16,7 @@ spec:
         kinds:
         - Pod
     validate:
-      message: "Images must only come from harbor2.zoller.com."
+      message: "Images must only come from our enterprise registry!"
       pattern:
         spec:
           containers:
