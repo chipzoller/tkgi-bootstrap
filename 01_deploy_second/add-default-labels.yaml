@@ -16,4 +16,4 @@ spec:
       patchStrategicMerge:
         metadata:
           labels:
-            created-by: "george"
+            created-by: alan
