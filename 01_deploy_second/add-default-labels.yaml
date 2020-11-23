@@ -16,4 +16,4 @@ spec:
       patchStrategicMerge:
         metadata:
           labels:
-            created-by: "{{request.userInfo.username}}"
+            created-by: "george" #"{{request.userInfo.username}}"
