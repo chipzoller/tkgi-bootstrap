@@ -46,6 +46,6 @@ spec:
   # Ignore differences at the specified json pointers
   ignoreDifferences:
   - group: kyverno.io
-    kind: ClusterPolicies
+    kind: ClusterPolicy
     jsonPointers:
-    - /spec/rules/match
+    - /spec/rules
