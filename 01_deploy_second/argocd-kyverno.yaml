@@ -49,3 +49,7 @@ spec:
     kind: ClusterPolicy
     jsonPointers:
     - /spec/rules
+  - group: kyverno.io
+    kind: Policy
+    jsonPointers:
+    - /spec/rules
