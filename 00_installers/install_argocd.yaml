@@ -1,3 +1,5 @@
+### Need to ensure the Namespace is created here and kustomize has been run to assign the
+### same namespace to all resources. Must be the same namespace as defined in 01_installer_resources/argocd-kyverno.yaml
 apiVersion: v1
 kind: Namespace
 metadata:
